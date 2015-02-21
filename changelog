@@ -1,4 +1,16 @@
-commit 8a5e87a1b6aa2885306126c7d3e9f557525eaecd (HEAD, origin/master, origin/HEAD, master)
+commit 0695242b0573d1a3a5fef08f25fbe07116dbb39d (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Feb 21 10:43:28 2015 -0430
+
+    * se agrega la imagen de estado
+
+commit 940b5ee718742fef4e90e92ca0e96cbbb7f897f2
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Feb 21 10:40:22 2015 -0430
+
+    * changelog
+
+commit 8a5e87a1b6aa2885306126c7d3e9f557525eaecd
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sat Feb 21 10:39:17 2015 -0430
 
