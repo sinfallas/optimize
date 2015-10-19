@@ -1,12 +1,13 @@
 #!/bin/bash
 # Made by Sinfallas <sinfallas@yahoo.com>
 # Licence: GPL-2
+LC_ALL=C
 if [[ $USER != root ]]; then
 	echo -e "\e[00;31mERROR: DEBES SER ROOT\e[00m"
 	exit 1
 fi
 modprobe zram
-echo $((100*1024*1024)) > /sys/block/zram0/disksize
+echo "104857600" > /sys/block/zram0/disksize
 mkswap /dev/zram0
 swapon /dev/zram0
 echo -e "\e[00;1;92mFinished...\e[00m"
