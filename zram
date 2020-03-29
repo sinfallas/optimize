@@ -7,9 +7,10 @@ if [[ "$EUID" != "0" ]]; then
 	echo -e "\e[00;31mERROR: DEBES SER ROOT\e[00m"
 	exit 1
 fi
-modprobe zram
-echo "104857600" > /sys/block/zram0/disksize
+
+modprobe zram num_devices=1
+zramctl -f -t 2 -s 100MB -a lz4
 mkswap /dev/zram0
-swapon /dev/zram0
-echo -e "\e[00;1;92mFinished...\e[00m"
+swapon --priority 10 /dev/zram0
+echo -e "\e[00;1;92mFinalizado...\e[00m"
 exit 0
