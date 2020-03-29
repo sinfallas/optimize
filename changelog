@@ -1,4 +1,16 @@
-commit 1d9b4a3d2a1219f8332a47889b64b61368c420c4 (HEAD -> master, tag: v0.1.3, origin/master, origin/HEAD)
+commit 122a7e1d5c3e522ae4d741f462c909f3198d0128 (HEAD -> master, origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Mar 29 13:22:07 2020 -0400
+
+    * nuevo zram
+
+commit eea2202a6fe09356168b06598de0b9ce0bebe6a7
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Sep 30 13:27:57 2018 -0400
+
+    * changelog
+
+commit 1d9b4a3d2a1219f8332a47889b64b61368c420c4 (tag: v0.1.3)
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Feb 29 21:23:47 2016 -0430
 
