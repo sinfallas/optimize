@@ -13,10 +13,12 @@
 # Description:       mizram
 ### END INIT INFO
 
+CPUS=$(nproc)
+
 case "$1" in
   start)
 	modprobe zram num_devices=1
-	zramctl -f -t 2 -s 100MB -a lz4
+	zramctl -f -t $CPUS -s 100MB -a lz4
 	mkswap /dev/zram0
 	swapon --priority 10 /dev/zram0
 	;;
